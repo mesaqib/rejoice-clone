@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    /* 400, 800 */
+}
+
+button{
+    border: none;
+    height: 9vh;
+    width: 16vw;
+    border-radius: 5vw;
+    font-size: 1.3vw;
+    background-color: #4541FE;
+    color: white;
+    font-weight: bold;
+}
+
+.wrapper{
+    width: 95vw;
+    margin-inline: auto
+}
+
+#main{
+    min-height: 100vh;
+}
+
+nav{
+    background-color: #101722;
+    color: #fff;
+    height: 14vh;
+}
+nav .logo h3{
+    font-size: 1.3vw;
+}
+nav img{
+    padding-right: 0.7vw;
+    height: 7.5vh;
+}
+
+nav .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .wrapper .logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .wrapper .menu ul{
+  display: flex;
+  gap: 2.5vw;
+}
+nav .wrapper .menu ul li{
+    list-style: none;
+    font-size: 1.2vw;
+}
+#page1 {
+    background-color: #101722;
+    height: calc(120vh - 14vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+#page1 .bg-img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    z-index: 1;
+}
+
+
+#page1 h1{
+    font-size: 6vw;
+    text-align: center;
+    color: white;
+    width: 90vw;
+    font-weight: 800;
+    font-stretch: expanded;
+    z-index: 2;
+}
+#page1 button{
+    background-color: white;
+    color: #000;
+    z-index: 2;
+}
+#page1 .brand{
+    padding-top: 12vh;
+    display: flex;
+    justify-content: center;
+    gap: 2vw; 
+}
+
+#page2{
+     min-height: 100vh;
+     background-color: #4541FD;
+     position: relative;
+     padding-top: 5vh;
+}
+
+#page2 .card{
+    position: relative;
+    overflow: hidden;
+    padding-top: 4vh;
+    height: 97vh;
+    width: 100%;
+    border-radius: 5vw;
+    background-color: #4541FD;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 1px 2px 3px black; */
+}
+#page2 .card .content{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+}
+#page2 .card .content h1{
+    position: relative;
+    font-size: 7vw;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+#page2 .card .content p{
+     position: relative;
+    color: white;
+    font-size: 1.5vw;
+    width: 50vw;
+    z-index: 2;
+    text-align: center;
+}
+#page2 .card video{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    height: 60vh;
+    width: 80vw;
+}
+
+
+#page3{
+     height: 200vh;
+     /* background-color: #ffd6d6; */
+     position: relative;
+     padding: 5vw;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     position: relative;
+}
+#page3 h1{
+    font-size: 7vw;
+    width: 50vw;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+#page3 .content{
+    position: relative;
+    z-index: 1;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+    margin-top: -40vh;
+    line-height: 0.01;
+}
+
+#page3 .page3-img{
+    position: relative;
+    z-index: 3;
+     transform: rotateX(60deg);
+     height: 70vh;
+     /* width: 60vw; */
+     object-fit: cover;
+     /* margin-top: -20vh; */
+}
+#page3 .content h4{
+  color: #FE0F83;
+  font-size: 1.5vw;
+}
+#page3 .content h2{
+    font-size: 5vw;
+    text-align: center;
+    line-height: 0.9;
+    width: 90vw;
+    white-space: nowrap;
+}
+
+.positionfixed{
+     position: fixed;
+}
+
+#page4{
+    margin-top: 60vh;
+    background-color: #101722;
+    height: 200vh;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+}
+
+#page4 img{
+    width: 80vw;
+    background-size: cover;
+    object-fit: cover;
+    margin-left: 10vw;
+    margin-top: 40vh; 
+}
+
+#page4 h1{
+    margin-top: 20vh;
+    font-size: 7vw;
+    color: white;
+    text-align: center;
+    width: 80vw;
+    margin-inline: auto;
+}
+#page4 button{
+     width: 30vw;
+     margin-left: 35vw;
+}
+
+#page5{
+    margin-top: -100vh;
+    background-color: #4585ec;
+    height: 100vh;
+    position: relative;
+    z-index: 3;
+}
